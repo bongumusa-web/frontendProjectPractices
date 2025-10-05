@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+body{
+    background-color: rgba(118, 105, 176, 0.615);
+}
+.app{
+    background-color: #fff;
+    width:90% ;
+    max-width: 700px;
+    margin:30px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+
+
+
+}
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid gray;
+
+    
+}
+
+.header h1{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+    text-align: left;
+    
+    
+}
+
+.header h2{
+    font-size: 25px;
+    font-weight: 100;
+    margin: 0;
+    text-align: right;
+    display: block;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+    
+.quiz{
+    padding: 20px 0px 40px;
+
+
+}
+
+.quiz h2{
+    margin-top: 5px;
+    font-weight: 400;
+    font-size:18px;
+   
+
+
+}
+
+.btn{
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    width: 100%;
+    margin: 7px;
+    padding:10px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.btn:hover:not([disabled]){
+    background-color: rgb(151, 152, 150);
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#nex-btn{
+    background-color: blueviolet;
+    padding: 10px ;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    margin: 20px auto 0;
+    display: block;
+    cursor: pointer;
+
+    float:right;
+}
+
+#image-container {
+    margin:10px auto 0;
+    width: 50%;
+    height: 200px;
+    padding:5px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    display:none ;
+
+}
+#image-container img{
+    width:80%;
+    height: 195px;
+    border-radius: 10px;
+}
+.correct{
+    background-color: rgb(142, 245, 211);
+}
+
+.incorrect {
+    background-color: rgb(243, 121, 121);
+}
